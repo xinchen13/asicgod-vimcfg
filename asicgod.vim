@@ -15,7 +15,8 @@ set mat=2                           " how many tenths of a second to blink when 
 syntax enable                       " turn on syntax highlighting
 syntax on
 set encoding=utf8                   " set utf8 as standard encoding and en_US as the standard language
-
+set cursorline
+set cursorcolumn
 
 " code indentation and layout
 filetype indent on
@@ -28,7 +29,7 @@ set smartindent
 
 " colors and themes
 set t_Co=256                        " enable 256-color support
-colorscheme molokai_modified        " theme
+colorscheme murphy      		    " theme
 
 
 " key bindings
