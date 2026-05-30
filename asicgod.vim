@@ -12,8 +12,7 @@ set ruler                           " always show current position
 set cmdheight=1                     " height of the command bar
 set showmatch                       " show matching brackets when text indicator is over them
 set mat=2                           " how many tenths of a second to blink when matching brackets
-syntax enable                       " turn on syntax highlighting
-syntax on
+syntax on                           " turn on syntax highlighting
 set encoding=utf8                   " set utf8 as standard encoding and en_US as the standard language
 set cursorline
 set cursorcolumn
